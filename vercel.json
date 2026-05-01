@@ -1,11 +1,8 @@
 {
-  "functions": {
-    "api/proxy.js": {
-      "memory": 128,
-      "maxDuration": 300
-    }
-  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/proxy" }
+    {
+      "source": "/(.*)",
+      "destination": "http://93.123.85.141/$1"
+    }
   ]
 }
