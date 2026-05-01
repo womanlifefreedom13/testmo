@@ -1,8 +1,10 @@
 {
+  "memory": 128,
+  "maxDuration": 300,
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "http://93.123.85.141:8080/$1"
+      "destination": "https://vercel.a13.uk/$1"
     }
   ]
 }
