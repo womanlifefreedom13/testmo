@@ -1,6 +1,4 @@
 {
-  "memory": 128,
-  "maxDuration": 300,
   "rewrites": [
     {
       "source": "/(.*)",
